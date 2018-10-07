@@ -14,7 +14,8 @@ config = {
 
     ##
     # nastaveni mysql uloziste
-    "dbserver"  : "localhost"   # nazev databazoveho serveru
+    "dbfilename": "ea-main.db"  # infile database (sqlite3)
+    ,"dbserver" : "localhost"   # nazev databazoveho serveru
     ,"dbuser"   : "root"        # uzivatelske jmeno pristupujici k databazi
     ,"dbpasswd" : ""            # pristupove heslo pro zadaneho uzivatele (viz dbuser)
     ,"dbname"   : "EA"          # nazev databaze

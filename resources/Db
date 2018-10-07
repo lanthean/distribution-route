@@ -1,0 +1,103 @@
+#!/usr/bin/env python
+# -*- coding:utf-8 -*-
+###
+# @Author   http://martinbortel.cz
+# @Contact  martin.bortel@gmail.com
+# @Created  07/10/2018
+#
+# @Package  Distribution route
+#
+import sqlite3
+
+import inc.baseconfig
+import inc.Context
+import resources.LogToFile
+
+
+class Db():
+    def function Db():
+        self.conn = sqlite3.connect(config['dbfilename'])
+    # eo Db()
+
+    def Query(sql, verbose=False):
+        if (verbose):
+            # print( $sql ) #old version
+            Context.DebugOutput[] = sql     # from v.1.0.2 use Context
+
+        try:
+            result_set = self.conn.execute(sql)
+        except sqlite3.Error as e:
+            LogToFile.saveLog("dbconn", "error", e + " SQL: $sql")
+            # print( "<br />MySQL: "+mysql_error()+", SQL: {$sql}" )
+            ret = False
+        ret = result_set
+        return ret
+    # eo Query()
+
+    def Find(RS, FieldName, Value):
+        RS.movefirst()
+        while (not RS.eof() AND RS.fields[FieldName] != Value):
+            RS.movenext()
+
+        return not RS.eof()
+    # eo Find()
+
+    def InsertArray(table, array, verbose=False):
+
+        rs = self.Db.query("SHOW COLUMNS FROM " + table)
+        if (not rs):
+            return False
+
+        sqlKeys = array()
+        sqlValues = array()
+        foreach(array as k, v):
+            if (Db.Find(rs, "Field", k) AND k != "0"):
+                sqlKeys[] = "`{k}`"
+                sqlValues[] = "'" . mysql_escape_string($v) . "'"
+
+        sql = "INSERT INTO table ("
+        + implode(", ", sqlKeys) + ") VALUES ("
+        + implode(", ", sqlValues) + ")"
+
+        result = Db.Query(sql, verbose)
+        self.Insert_ID = self.conn.Insert_ID()
+    # eo InsertArray()
+
+    def UpdateArray(table, array, verbose=False):
+        rs = Db.query("SHOW COLUMNS FROM " + table)
+        if (not rs):
+            return False
+
+        sqlKeys = array()
+        sqlValues = array()
+        foreach(array as k, v):
+            if (Db.Find(rs, "Field", k) and k != "0") {
+                sqlKeys[] = "`{k}`"
+                sqlValues[] = "v"
+
+        rs = Db.Query("SHOW COLUMNS FROM " + table + " WHERE `key` = 'PRI'")
+
+        if(rs and rs.recordcount() > 0):
+            where = " WHERE "
+            first = true
+            while (not rs->eof()):
+                if (not first):
+                    where += " AND "
+
+                where += "`{$rs->fields['Field']}` = '{$array[$rs->fields['Field']]}'"
+                $first = false
+                $rs->MoveNext()
+
+            sql = ""
+            for (i=0, i < count(sqlKeys), i++):
+                sql += sqlKeys[i] + " = '"
+                + mysql_escape_string(sqlValues[i]) + "',"
+
+            sql = substr($sql, 0, strlen($sql)-1)
+            sql = "UPDATE $table SET " + sql + " " + where
+            return Db.Query(sql, verbose)
+        else:
+            return false
+
+	# eo UpdateArray()
+# eo Db()

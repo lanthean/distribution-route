@@ -14,13 +14,44 @@
 ###
 
 # setup global vars
-include inc.common
-include pprint
+# from inc.baseconfig import config
+import resources.Db
+db = Db.Db()
+
+print(db.Query("SELECT * FROM "))
+
+import os
+config = {
+    # je potreba nastavit dle vlastniho uloziste
+
+    ##
+    # nastaveni mysql uloziste
+    "dbserver"  : "localhost"   # nazev databazoveho serveru
+    ,"dbuser"   : "root"        # uzivatelske jmeno pristupujici k databazi
+    ,"dbpasswd" : ""            # pristupove heslo pro zadaneho uzivatele (viz dbuser)
+    ,"dbname"   : "EA"          # nazev databaze
+
+    ##
+    # "basepath" : "/cesta/ke/korenovemu/adresari/zdrojovych/souboru/na/serveru/"
+	,"basepath" : os.path.dirname(os.path.realpath(__file__))
+    ##
+    # "baseurl" : "url adresa ke korenu projektu"
+    ,"baseurl" : 'http://localhost/ea/'
+
+    ,"APIKey" : 'ABQIAAAAXWcGXwk3hBVAVYTTFL5yMRQtjReqdFHmh44zZdTw87HtIN-cWRTa9h8fuMp6N_ng844Cg4_ohWTOoQ'
+}
+
+import pprint
 pp = pprint.PrettyPrinter(indent=4)
 
-pp.pprint(common.config)
+#pp.pprint(baseconfig.config)
+pp.pprint(config)
 
-print(common.config['dbserver'])
+print("qwe")
+print(config['dbserver'])
+
+
+# print(baseconfig.config['dbserver'])
 
 '''
 global config, Context, Content, Tools
