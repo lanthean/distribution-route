@@ -53,7 +53,7 @@ class Db():
         foreach(array as k, v):
             if (Db.Find(rs, "Field", k) AND k != "0"):
                 sqlKeys[] = "`{k}`"
-                sqlValues[] = "'" . mysql_escape_string($v) . "'"
+                sqlValues[] = "'" . mysql_escape_string(v) . "'"
 
         sql = "INSERT INTO table ("
         + implode(", ", sqlKeys) + ") VALUES ("
@@ -80,20 +80,20 @@ class Db():
         if(rs and rs.recordcount() > 0):
             where = " WHERE "
             first = true
-            while (not rs->eof()):
+            while (not rs.eof()):
                 if (not first):
                     where += " AND "
 
-                where += "`{$rs->fields['Field']}` = '{$array[$rs->fields['Field']]}'"
+                where += "`{rs.fields['Field']}` = '{array[rs.fields['Field']]}'"
                 $first = false
-                $rs->MoveNext()
+                $rs.MoveNext()
 
             sql = ""
             for (i=0, i < count(sqlKeys), i++):
                 sql += sqlKeys[i] + " = '"
                 + mysql_escape_string(sqlValues[i]) + "',"
 
-            sql = substr($sql, 0, strlen($sql)-1)
+            sql = substr(sql, 0, strlen(sql)-1)
             sql = "UPDATE $table SET " + sql + " " + where
             return Db.Query(sql, verbose)
         else:
