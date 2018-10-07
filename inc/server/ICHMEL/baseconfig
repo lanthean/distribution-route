@@ -7,24 +7,24 @@
 #
 # @Package  Distribution route
 ###
+
 import os
 
 config = {
     # je potreba nastavit dle vlastniho uloziste
-
     ##
-    # nastaveni mysql uloziste
-    "dbserver"  : "localhost"   # nazev databazoveho serveru
-    ,"dbuser"   : "root"        # uzivatelske jmeno pristupujici k databazi
-    ,"dbpasswd" : ""            # pristupove heslo pro zadaneho uzivatele (viz dbuser)
-    ,"dbname"   : "EA"          # nazev databaze
+    # nastaveni db uloziste
+    "dbserver"  : "hz-mysql1"   # nazev databazoveho serveru
+    ,"dbuser"   : "mysql32174"  # uzivatelske jmeno pristupujici k databazi
+    ,"dbpasswd" : "DasacaJ11"   # pristupove heslo pro zadaneho uzivatele (viz dbuser)
+    ,"dbname"   : "mysql37370"  # nazev databaze
 
     ##
     # "basepath" : "/cesta/ke/korenovemu/adresari/zdrojovych/souboru/na/serveru/"
 	,"basepath" : os.path.dirname(os.path.realpath(__file__))
     ##
     # "baseurl" : "url adresa ke korenu projektu"
-    ,"baseurl" : 'http://localhost/ea/'
+    ,"baseurl" : 'http://ea.ichmel.cz/'
 
-    ,"APIKey" : 'ABQIAAAAXWcGXwk3hBVAVYTTFL5yMRQtjReqdFHmh44zZdTw87HtIN-cWRTa9h8fuMp6N_ng844Cg4_ohWTOoQ'
+    ,"APIKey" : 'ABQIAAAAXWcGXwk3hBVAVYTTFL5yMRTeLdO4vl5eiCXINfc1QvAWkk48bRQ8NxP4LDm85xuN_oTTdF8yFkcCXA'
 }
