@@ -1,0 +1,34 @@
+#!/usr/bin/env python
+#-*- coding:utf-8 -*-
+###
+# @Author   http://martinbortel.cz
+# @Contact  martin.bortel@gmail.com
+# @Created  07/10/2018
+#
+# @Package  Distribution route
+###
+
+global config
+config = {
+     // je potreba nastavit dle vlastniho uloziste
+
+    /**
+     * nastaveni mysql uloziste
+     */
+    "dbserver" : "localhost"   //nazev databazoveho serveru
+    ,"dbuser" : "root"         //uzivatelske jmeno pristupujici k databazi
+    ,"dbpasswd" : ""           //pristupove heslo pro zadaneho uzivatele (viz dbuser)
+    ,"dbname" : "EA"           //nazev databaze
+
+    /**
+     * "basepath" : "/cesta/ke/korenovemu/adresari/zdrojovych/souboru/na/serveru/"
+     */
+    ,"basepath" : "/var/www/ea/"
+    /**
+     * "baseurl" : "url adresa ke korenu projektu"
+     */
+    ,"baseurl" : 'http://localhost/ea/'
+
+
+    ,"APIKey" : 'ABQIAAAAXWcGXwk3hBVAVYTTFL5yMRQtjReqdFHmh44zZdTw87HtIN-cWRTa9h8fuMp6N_ng844Cg4_ohWTOoQ'
+}

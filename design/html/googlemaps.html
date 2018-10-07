@@ -1,0 +1,71 @@
+    <script type="text/javascript">
+      var directionDisplay;
+      var directionsService = new google.maps.DirectionsService();
+      var map;
+
+      function initialize() {
+        directionsDisplay = new google.maps.DirectionsRenderer();
+        var myLatlng = new google.maps.LatLng({$start});
+        var myOptions = {
+          zoom: 13
+          ,center: myLatlng
+          ,mapTypeId: google.maps.MapTypeId.HYBRID
+        };
+        map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
+        directionsDisplay.setMap(map);
+        calcRoute();
+      }
+
+      function calcRoute() {
+        var start = document.getElementById("start").value;
+        var end = document.getElementById("end").value;
+        var waypts = [];
+        var checkboxArray = document.getElementById("waypoints");
+        for (var i = 0; i < checkboxArray.length; i++) {
+          if (checkboxArray.options[i].selected == true) {
+            waypts.push({
+                location:checkboxArray[i].value,
+                stopover:true});
+          }
+        }
+
+        var request = {
+            origin: start, 
+            destination: end,
+            waypoints: waypts,
+            optimizeWaypoints: true,
+            travelMode: google.maps.DirectionsTravelMode.DRIVING
+        };
+        directionsService.route(request, function(response, status) {
+          if (status == google.maps.DirectionsStatus.OK) {
+            directionsDisplay.setDirections(response);
+            var route = response.routes[0];
+            var summaryPanel = document.getElementById("directions_panel");
+            summaryPanel.innerHTML = "";
+            // For each route, display summary information.
+            for (var i = 0; i < route.legs.length; i++) {
+              var routeSegment = i + 1;
+              summaryPanel.innerHTML += "<b>Route Segment: " + routeSegment + "</b><br />";
+              summaryPanel.innerHTML += route.legs[i].start_address + " to ";
+              summaryPanel.innerHTML += route.legs[i].end_address + "<br />";
+              summaryPanel.innerHTML += route.legs[i].distance.text + "<br /><br />";
+            }
+          }
+        });
+      }
+    </script>
+    <h1>Google JS MAP</h1>
+    <input type="hidden" id="start" value="{$start}" />
+    <input type="hidden" id="end" value="{$end}" />
+    <select multiple id="waypoints" style="display:none;">
+      {foreach $waypoints as $waypoint}
+        <option value="{$waypoint}" selected="selected"></input>
+      {/foreach}
+    </select>
+
+    <div id="map_canvas"></div>
+    
+    <script type="text/javascript">
+        initialize();
+        calcRoute();
+    </script>

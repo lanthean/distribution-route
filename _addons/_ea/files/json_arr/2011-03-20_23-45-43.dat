@@ -1,0 +1,772 @@
+20/03/2011 23:45:43
+Array
+(
+    [status] => OK
+    [routes] => Array
+        (
+            [0] => Array
+                (
+                    [summary] => D1/E50/E65
+                    [legs] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [steps] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [travel_mode] => DRIVING
+                                                    [start_location] => Array
+                                                        (
+                                                            [lat] => 49.19098
+                                                            [lng] => 16.61153
+                                                        )
+
+                                                    [end_location] => Array
+                                                        (
+                                                            [lat] => 49.19103
+                                                            [lng] => 16.61148
+                                                        )
+
+                                                    [polyline] => Array
+                                                        (
+                                                            [points] => srfkHamkdBIH
+                                                            [levels] => BB
+                                                        )
+
+                                                    [duration] => Array
+                                                        (
+                                                            [value] => 1
+                                                            [text] => 1 min
+                                                        )
+
+                                                    [html_instructions] => Head <b>northwest</b> on <b>Masarykova</b> toward <b>Nádražní</b>
+                                                    [distance] => Array
+                                                        (
+                                                            [value] => 7
+                                                            [text] => 7 m
+                                                        )
+
+                                                )
+
+                                            [1] => Array
+                                                (
+                                                    [travel_mode] => DRIVING
+                                                    [start_location] => Array
+                                                        (
+                                                            [lat] => 49.19103
+                                                            [lng] => 16.61148
+                                                        )
+
+                                                    [end_location] => Array
+                                                        (
+                                                            [lat] => 49.18911
+                                                            [lng] => 16.60749
+                                                        )
+
+                                                    [polyline] => Array
+                                                        (
+                                                            [points] => }rfkHwlkdB`FjQdAlBvAbB
+                                                            [levels] => B??B
+                                                        )
+
+                                                    [duration] => Array
+                                                        (
+                                                            [value] => 54
+                                                            [text] => 1 min
+                                                        )
+
+                                                    [html_instructions] => Turn <b>left</b> at <b>Nádražní</b>
+                                                    [distance] => Array
+                                                        (
+                                                            [value] => 365
+                                                            [text] => 0.4 km
+                                                        )
+
+                                                )
+
+                                            [2] => Array
+                                                (
+                                                    [travel_mode] => DRIVING
+                                                    [start_location] => Array
+                                                        (
+                                                            [lat] => 49.18911
+                                                            [lng] => 16.60749
+                                                        )
+
+                                                    [end_location] => Array
+                                                        (
+                                                            [lat] => 49.18446
+                                                            [lng] => 16.60235
+                                                        )
+
+                                                    [polyline] => Array
+                                                        (
+                                                            [points] => }ffkHysjdBfEtFrOtQ`D~Cb@V
+                                                            [levels] => B???B
+                                                        )
+
+                                                    [duration] => Array
+                                                        (
+                                                            [value] => 69
+                                                            [text] => 1 min
+                                                        )
+
+                                                    [html_instructions] => Continue onto <b>Nové Sady</b>
+                                                    [distance] => Array
+                                                        (
+                                                            [value] => 639
+                                                            [text] => 0.6 km
+                                                        )
+
+                                                )
+
+                                            [3] => Array
+                                                (
+                                                    [travel_mode] => DRIVING
+                                                    [start_location] => Array
+                                                        (
+                                                            [lat] => 49.18446
+                                                            [lng] => 16.60235
+                                                        )
+
+                                                    [end_location] => Array
+                                                        (
+                                                            [lat] => 49.1836
+                                                            [lng] => 16.60442
+                                                        )
+
+                                                    [polyline] => Array
+                                                        (
+                                                            [points] => {iekHusidBbCmGf@oC
+                                                            [levels] => B?B
+                                                        )
+
+                                                    [duration] => Array
+                                                        (
+                                                            [value] => 18
+                                                            [text] => 1 min
+                                                        )
+
+                                                    [html_instructions] => Turn <b>left</b> at <b>Poříčí</b>
+                                                    [distance] => Array
+                                                        (
+                                                            [value] => 180
+                                                            [text] => 0.2 km
+                                                        )
+
+                                                )
+
+                                            [4] => Array
+                                                (
+                                                    [travel_mode] => DRIVING
+                                                    [start_location] => Array
+                                                        (
+                                                            [lat] => 49.1836
+                                                            [lng] => 16.60442
+                                                        )
+
+                                                    [end_location] => Array
+                                                        (
+                                                            [lat] => 49.16732
+                                                            [lng] => 16.59861
+                                                        )
+
+                                                    [polyline] => Array
+                                                        (
+                                                            [points] => odekHs`jdBbIpB|Bd@tALbCBpF_@bA?xBLrBb@~GzBnP|EbCjApBtAbGlF`FnCnE~@hBNpCB
+                                                            [levels] => B???????@?@???@??B
+                                                        )
+
+                                                    [duration] => Array
+                                                        (
+                                                            [value] => 156
+                                                            [text] => 3 mins
+                                                        )
+
+                                                    [html_instructions] => Take the 1st <b>right</b> onto <b>Heršpická</b>
+                                                    [distance] => Array
+                                                        (
+                                                            [value] => 1885
+                                                            [text] => 1.9 km
+                                                        )
+
+                                                )
+
+                                            [5] => Array
+                                                (
+                                                    [travel_mode] => DRIVING
+                                                    [start_location] => Array
+                                                        (
+                                                            [lat] => 49.16732
+                                                            [lng] => 16.59861
+                                                        )
+
+                                                    [end_location] => Array
+                                                        (
+                                                            [lat] => 49.16256
+                                                            [lng] => 16.59901
+                                                        )
+
+                                                    [polyline] => Array
+                                                        (
+                                                            [points] => w~akHi|hdBjFEtIYtJo@
+                                                            [levels] => B??B
+                                                        )
+
+                                                    [duration] => Array
+                                                        (
+                                                            [value] => 31
+                                                            [text] => 1 min
+                                                        )
+
+                                                    [html_instructions] => Continue onto <b>Vídeňská</b>
+                                                    [distance] => Array
+                                                        (
+                                                            [value] => 530
+                                                            [text] => 0.5 km
+                                                        )
+
+                                                )
+
+                                            [6] => Array
+                                                (
+                                                    [travel_mode] => DRIVING
+                                                    [start_location] => Array
+                                                        (
+                                                            [lat] => 49.16256
+                                                            [lng] => 16.59901
+                                                        )
+
+                                                    [end_location] => Array
+                                                        (
+                                                            [lat] => 49.75427
+                                                            [lng] => 14.97273
+                                                        )
+
+                                                    [polyline] => Array
+                                                        (
+                                                            [points] => _aakHy~hdBxB\`@Vl@j@pBzCz@rC\`CNrC_Ezv@YnN?xLJtHbCbe@LdK[tXoAhOs@pG}BnNoUfbAsI`c@}E~^eA~J{BhZ{Fx_AkAhM}@fHuAtJq@fDmKza@qC`PgBjP_C`]mA|MiBhOgCzNoDbPqPbp@qDzPkEfW{C|UaS|oBqDb[sCbSqAnHyAbIeDvNoHbXkF|OiBvEyErKqEfJsFrJgLpP_JzJwHnG}EbDgEdCmGxCaMhF_QbKaI|G}DbEgDjEgI`MiHnN}AzDyDnLuChLqI|a@_EdPs@fCsC~HeHxOyJxNiAtAwEdFuEbEeJbJqDrE{JlP_HpMeH`L{GrIcXnZaHvJsCbFmN`YuOv\yR|`@aGxNeCzHkBxG_EdRgBvNsAzOo@vTa@xw@e@nT{@dQe@lG{AxNyCpQ}DdQcFhQyMbb@wIlWcJj\mEjSsC|R{AdPo@dJoB`k@mCd_AmAvh@qApbA{@|Zo@~KiCdWgJxj@_C|OeIxq@qEdb@aB`MyCjRuCnNsDhOcCtIyEhOsCvHyFjNeGbNia@`{@_G~MoEfLqGtRcCfIeIdZoJnc@iBbKsDhV_BxLeBbOyArOsEfi@yF`u@kBbTyGbf@yBzLmFnUkDpMyJnXcDjIsElKqFzNgBdEsG~RkAdEaKzc@eIr_@qApE_GjPuCnGcHjMw[ja@mCbEmBpDyFdNaL|YcFdOiIfU}BpFeHhOyH|N}ChFcJrQqFdMqJtVoJbTuFjJoC|DmO`RwDlFwDrGuBnEiBnEkDzJ}CxLkGvYiB|G{BpGkG`SuB~HmCjMmBdMw@tGqA|P[~GoAnj@_AvOeBdSgChRqAxHqGhYak@l~Bwq@f|CiUpeAuMpj@}BnLkBdLkBpNyBxSqC~TkCvPiHf^iId\yIv_@oApHyAhLmAlOsBbb@{BpZ_BpQ}LjkAeJf_AwDdf@iApR{DjmAmB`]uD`h@}@lQy@fU_@hWDvQ`@v\|@xd@BdJO`ZqAlZaDhf@aA~TUjMExK?lRNzYCnHUhJeBx^m@lHaHnpAeDbcAsAdQiCtRgBtJ_HxUgGpP{L~ZqFjPaBdGoCpLgDdRwBdQeA~McAnRkFvz@m@tHkBtP@h@gCdRgCxN}EzTmEfPuGbSqGbPqh@fnA{Qne@}Wru@_b@~lA_DzJkCtJi@fCiCnO_ArIs@zJcBxc@q@lIwAlKuA`HqAhFiCxHuAjDuDlHsBbDeGrHgFdFyMvLcChCgD~D}AbCeB`DwBhFkH|V}AvEkEzI_DhEiChCmE`D{MrHaDhCuC`D{CtE{A|CiBrE}ApFkBtJ}AhL}N~jB{BtS}A`LmFt[aPzy@uGb`@{B|N}XttBaBhK_C~L{AdGsE~OgG~OqDpHsEtH{FxI}OnRoDzEiChEeOjXmHvKwHvI_L|ImCjBmGjFeFxGaFvIcAlCs@zBqCdLu@xE_ArJ]hGKvFNnMl@dKxBdT`AdL^bH\lMb@dWlGxeAf@~SAb[OxF{@lQgA`Ns@rHcDxT{D~QgNxj@qJ`b@}F|\w@lGqDhd@iBnm@y@|d@w@bZs@rNyAzMw@rF_BnIuAxFiEzNcCjG{DjIaCnEqCdEcEpFkCrCsDxCoGtEwC|AmCpAiKxDkErAcGrAyb@tHgFpAcH`CwDdBqIjFsG`FcKvLeIrN{ClGuDxJwD~MuDxQeCpSeBtX_@vMk@hLw@tIkA~JiAbI_A`F_CrKuBpHyEhNwHdSuDbMyC`LkA~F_CnJaGhRiFnMiGbKwBxCoGfHcOjQsHtHqCnD_KzKmDlEqItLkEfIuF`Nu@zBgJn[uEtNaHvPwFjLaLvVgErKsEjNwDrPaB~Ly@|KSvPXhIn@vH~@xG~ApHtDtM~AxH`A~Hn@hND|MGhCw@tJi@vEeCdLgJjWuBpI{AdJqB`O}CzPwNbl@q@tCw@zEsAzIqCvUg@jIuLtoAeBbT{H`x@kBbLy@|CkBjGcCdFiBdDaDdE_HzF}C~A}FhCsLbEy\nMg^nMiNjEqNlDaNbCoGvAifD|o@s_@zHe^nGiWpFuEnBgClAgC|AoIhHoBxBeDpEmFzJiFbN_Lpc@wEjSiBrFyB~EeCzD}BpCoBrBeCfBsCxA{Bx@gJnAiOv@kC\eCf@mHjCiCrAkChBoDfD_EjEkA|AoExH{DrJw@`CkCtKkDbS}WneBcBpJ_B`HgAhDuCxGeC`E_B~BeCfCqFvDoy@dc@}LbGqOlIcJpEmIvEwFhCqDpBaD|BuIrIsDzEgCzD_IzNaJ`MwAvA}@lA}MhK_CrB_BdByE~G{CtGoDzLcBtLm@dP@dETpHd@fGdAhIbJxg@|B`O~@hInA~P~@zSDdEE|Lm@jUy@tLgCdT}AbJqErR_GjQgDfH
+                                                            [levels] => B???@??@?@???@?@???@?????@???@????@???@??@???A??@???@??@???@???@??@??@??@?????@??@??@?????A???@??@??@?????@?@???????@???????A???@????@??@???@????@?@?@?????@???A??@??@????@??????@?????@????????A????????@????@?????@????A??????@????@??????@??@?????@?????A????@??@??????@??@???????@??@???@??A???@?????@????@?????@???A????@??@??@??A??@?????@????@???A????@??????@??@???@????@????@???A???@???@???@?????@?@?A???@???????@????????@??@???????@????????A?@?@??????@???@?????????@?????@???A???@????@???????A??@??@???@??@???@????@???A????@??@???A??@???????@???????????A?@??@????@???@??@???B
+                                                        )
+
+                                                    [duration] => Array
+                                                        (
+                                                            [value] => 4431
+                                                            [text] => 1 hour 14 mins
+                                                        )
+
+                                                    [html_instructions] => Merge onto <b>D1/E50/E65</b> via the ramp to <b>Praha</b><div style="font-size:0.9em">Partial toll road</div>
+                                                    [distance] => Array
+                                                        (
+                                                            [value] => 145339
+                                                            [text] => 145 km
+                                                        )
+
+                                                )
+
+                                            [7] => Array
+                                                (
+                                                    [travel_mode] => DRIVING
+                                                    [start_location] => Array
+                                                        (
+                                                            [lat] => 49.75427
+                                                            [lng] => 14.97273
+                                                        )
+
+                                                    [end_location] => Array
+                                                        (
+                                                            [lat] => 49.75456
+                                                            [lng] => 14.97616
+                                                        )
+
+                                                    [polyline] => Array
+                                                        (
+                                                            [points] => estnHqjkzAkA^e@@e@MWS{@aBMiA?iANwAp@{B|BcF
+                                                            [levels] => B??@??@???B
+                                                        )
+
+                                                    [duration] => Array
+                                                        (
+                                                            [value] => 35
+                                                            [text] => 1 min
+                                                        )
+
+                                                    [html_instructions] => Take exit <b>49-Psáře</b> for <b>125</b> toward <b>Kolín/Kácov/Vlašim</b><div style="font-size:0.9em">Partial toll road</div>
+                                                    [distance] => Array
+                                                        (
+                                                            [value] => 398
+                                                            [text] => 0.4 km
+                                                        )
+
+                                                )
+
+                                            [8] => Array
+                                                (
+                                                    [travel_mode] => DRIVING
+                                                    [start_location] => Array
+                                                        (
+                                                            [lat] => 49.75456
+                                                            [lng] => 14.97616
+                                                        )
+
+                                                    [end_location] => Array
+                                                        (
+                                                            [lat] => 49.76492
+                                                            [lng] => 14.97728
+                                                        )
+
+                                                    [polyline] => Array
+                                                        (
+                                                            [points] => _utnH_`lzAoJaJqA}@aC_AaB[uAEsHd@gD_@iDm@mDt@_IzCgDvB
+                                                            [levels] => B???@???@??B
+                                                        )
+
+                                                    [duration] => Array
+                                                        (
+                                                            [value] => 101
+                                                            [text] => 2 mins
+                                                        )
+
+                                                    [html_instructions] => Turn <b>left</b> at <b>Route 125</b> (signs for <b>Kácov</b>)
+                                                    [distance] => Array
+                                                        (
+                                                            [value] => 1221
+                                                            [text] => 1.2 km
+                                                        )
+
+                                                )
+
+                                            [9] => Array
+                                                (
+                                                    [travel_mode] => DRIVING
+                                                    [start_location] => Array
+                                                        (
+                                                            [lat] => 49.76492
+                                                            [lng] => 14.97728
+                                                        )
+
+                                                    [end_location] => Array
+                                                        (
+                                                            [lat] => 49.88073
+                                                            [lng] => 15.06385
+                                                        )
+
+                                                    [polyline] => Array
+                                                        (
+                                                            [points] => wuvnH_glzAeByDqCcC{@@uC`Bk@P]EQa@e@eCk@aBm@s@yF{Bm@i@c@gA}EgZ{@oNW{Se@aJsGoSgD_Hs@mBiBkJkFoSiE}Z{CmLoB_FwBmE_BgC{DaEeBkAcIaCqCc@qRyAaMm@cFc@{@EsDVqAA_AK_@O][m@mA_@wC}AeSM}I]qAe@e@c@E[d@I~@@pAIz@STYNoCo@}@Jq@`@k@Eg@a@NgA^q@P{@c@sCcBsBuBqAcCyBgAo@kBi@gI_D_Ci@gEyAwCo@wBWmXuFiGuCcGoBaBs@eDu@iA@kBXiLpEqHfDeA|@wE~GyB`Ea@\cDn@mFTaCXeS|EiL|C{AT_ElAcCTeB[yCmB}Ay@m@Oe@g@eAa@g@u@_A_CcCiD}IcKiBw@yHsA}@i@_IiMuC{DyFyGkCyBwHaFeGmFeDeBcCgBiDcBEKiJeGm@wAe@wDs@{A}EeFuGcEwKsEcBqAsBmAyBwBwGcFa@eAEw@A_B\yBEa@OO_B[_CB{Jh@kAM}@m@]u@Ow@eAmMw@sCsCaEuAu@md@cSgDmAoIu@yKG_IQgNo@mGMoD[iAmAoAeC}AmEy@wCO}B_CuFkByC_@}A
+                                                            [levels] => B?@???@??@???@???@??@???@???A??@???????@??????@?????@????@????@???@??????????A???@???@????????A????@???@??@??@???????@???@?????@?????@????@????@??@?????@???????B
+                                                        )
+
+                                                    [duration] => Array
+                                                        (
+                                                            [value] => 1001
+                                                            [text] => 17 mins
+                                                        )
+
+                                                    [html_instructions] => Turn <b>right</b> to stay on <b>Route 125</b>
+                                                    [distance] => Array
+                                                        (
+                                                            [value] => 16538
+                                                            [text] => 16.5 km
+                                                        )
+
+                                                )
+
+                                            [10] => Array
+                                                (
+                                                    [travel_mode] => DRIVING
+                                                    [start_location] => Array
+                                                        (
+                                                            [lat] => 49.88073
+                                                            [lng] => 15.06385
+                                                        )
+
+                                                    [end_location] => Array
+                                                        (
+                                                            [lat] => 49.88132
+                                                            [lng] => 15.06489
+                                                        )
+
+                                                    [polyline] => Array
+                                                        (
+                                                            [points] => qimoHad}zAuBoE
+                                                            [levels] => BB
+                                                        )
+
+                                                    [duration] => Array
+                                                        (
+                                                            [value] => 45
+                                                            [text] => 1 min
+                                                        )
+
+                                                    [html_instructions] => Continue straight onto <b>Václavské nám.</b>
+                                                    [distance] => Array
+                                                        (
+                                                            [value] => 99
+                                                            [text] => 0.1 km
+                                                        )
+
+                                                )
+
+                                            [11] => Array
+                                                (
+                                                    [travel_mode] => DRIVING
+                                                    [start_location] => Array
+                                                        (
+                                                            [lat] => 49.88132
+                                                            [lng] => 15.06489
+                                                        )
+
+                                                    [end_location] => Array
+                                                        (
+                                                            [lat] => 49.89194
+                                                            [lng] => 15.07332
+                                                        )
+
+                                                    [polyline] => Array
+                                                        (
+                                                            [points] => gmmoHqj}zA}@aCoAgCiBYeBw@_MeEyDeBoCw@uMwHkBkCgE{EyEuH
+                                                            [levels] => B?@?????@??B
+                                                        )
+
+                                                    [duration] => Array
+                                                        (
+                                                            [value] => 98
+                                                            [text] => 2 mins
+                                                        )
+
+                                                    [html_instructions] => Continue onto <b>Kolínská</b>
+                                                    [distance] => Array
+                                                        (
+                                                            [value] => 1359
+                                                            [text] => 1.4 km
+                                                        )
+
+                                                )
+
+                                            [12] => Array
+                                                (
+                                                    [travel_mode] => DRIVING
+                                                    [start_location] => Array
+                                                        (
+                                                            [lat] => 49.89194
+                                                            [lng] => 15.07332
+                                                        )
+
+                                                    [end_location] => Array
+                                                        (
+                                                            [lat] => 49.94251
+                                                            [lng] => 15.0981
+                                                        )
+
+                                                    [polyline] => Array
+                                                        (
+                                                            [points] => soooHg__{AoA_CqGmQ{CoHcByCqB_CaAg@_QcFgVuHuBe@sAC}B\}Bp@oBjAqB|AmGvFmBhA_Bj@yDJuCGwDeAkBeAqB}A}@eAq@uAqAiF[wBg@mB{@uAw@mCk@uC[w@y@gAuv@ah@_Jg@cHuCmD{BgBcBuHkEw@o@iAi@{QiLiAo@qDyAoEaAuBMkJiA{APuE~AiCpBqHzBiC|AS@
+                                                            [levels] => B????@??@???@????@??@???@???????@@?@???????@??@?????B
+                                                        )
+
+                                                    [duration] => Array
+                                                        (
+                                                            [value] => 349
+                                                            [text] => 6 mins
+                                                        )
+
+                                                    [html_instructions] => Continue onto <b>Route 125</b>
+                                                    [distance] => Array
+                                                        (
+                                                            [value] => 6386
+                                                            [text] => 6.4 km
+                                                        )
+
+                                                )
+
+                                            [13] => Array
+                                                (
+                                                    [travel_mode] => DRIVING
+                                                    [start_location] => Array
+                                                        (
+                                                            [lat] => 49.94251
+                                                            [lng] => 15.0981
+                                                        )
+
+                                                    [end_location] => Array
+                                                        (
+                                                            [lat] => 50.02386
+                                                            [lng] => 15.20006
+                                                        )
+
+                                                    [polyline] => Array
+                                                        (
+                                                            [points] => ukyoHczc{AKOK{D[e@}Bw@]D{F`EgBXgGjCmGR_Gz@kDCqBYkIaDc@iAOeAEeFk@iAw@i@mA[u@CcDn@oAW}@]{S}PkLwIUa@Q{@kDq[c@kBu@wBwh@sgAeJyTgh@ggAmLk_@w@_BgA_BqAuA_FgDgB_BwBgCmAmBaHaRm@gAy@UkGoDiAmBmBsIqB}Dmc@gj@q_A}y@oHcIuBaDaGsKuC}F}E}NaHsUgBuI_@kAaLsWkSub@yAyBsVuNeCmACa@]EqJyF
+                                                            [levels] => B???@???@???@@???@?????@?A????@??@?@????@??@?@??@@?@??@???@?@?????B
+                                                        )
+
+                                                    [duration] => Array
+                                                        (
+                                                            [value] => 790
+                                                            [text] => 13 mins
+                                                        )
+
+                                                    [html_instructions] => Turn <b>right</b> to stay on <b>Route 125</b><div style="font-size:0.9em">Go through 1 roundabout</div>
+                                                    [distance] => Array
+                                                        (
+                                                            [value] => 12333
+                                                            [text] => 12.3 km
+                                                        )
+
+                                                )
+
+                                            [14] => Array
+                                                (
+                                                    [travel_mode] => DRIVING
+                                                    [start_location] => Array
+                                                        (
+                                                            [lat] => 50.02386
+                                                            [lng] => 15.20006
+                                                        )
+
+                                                    [end_location] => Array
+                                                        (
+                                                            [lat] => 50.02613
+                                                            [lng] => 15.2004
+                                                        )
+
+                                                    [polyline] => Array
+                                                        (
+                                                            [points] => chipHkww{AaG[cEg@
+                                                            [levels] => B?B
+                                                        )
+
+                                                    [duration] => Array
+                                                        (
+                                                            [value] => 70
+                                                            [text] => 1 min
+                                                        )
+
+                                                    [html_instructions] => Continue onto <b>Legerova</b>
+                                                    [distance] => Array
+                                                        (
+                                                            [value] => 254
+                                                            [text] => 0.3 km
+                                                        )
+
+                                                )
+
+                                            [15] => Array
+                                                (
+                                                    [travel_mode] => DRIVING
+                                                    [start_location] => Array
+                                                        (
+                                                            [lat] => 50.02613
+                                                            [lng] => 15.2004
+                                                        )
+
+                                                    [end_location] => Array
+                                                        (
+                                                            [lat] => 50.02785
+                                                            [lng] => 15.19766
+                                                        )
+
+                                                    [polyline] => Array
+                                                        (
+                                                            [points] => ivipHoyw{AIMKFDPmAxDgAbCk@hBu@vAoAV
+                                                            [levels] => B???????B
+                                                        )
+
+                                                    [duration] => Array
+                                                        (
+                                                            [value] => 77
+                                                            [text] => 1 min
+                                                        )
+
+                                                    [html_instructions] => At the roundabout, take the <b>2nd</b> exit onto <b>Politických vězňů</b>
+                                                    [distance] => Array
+                                                        (
+                                                            [value] => 299
+                                                            [text] => 0.3 km
+                                                        )
+
+                                                )
+
+                                            [16] => Array
+                                                (
+                                                    [travel_mode] => DRIVING
+                                                    [start_location] => Array
+                                                        (
+                                                            [lat] => 50.02785
+                                                            [lng] => 15.19766
+                                                        )
+
+                                                    [end_location] => Array
+                                                        (
+                                                            [lat] => 50.02851
+                                                            [lng] => 15.19798
+                                                        )
+
+                                                    [polyline] => Array
+                                                        (
+                                                            [points] => aajpHkhw{AcC_A
+                                                            [levels] => BB
+                                                        )
+
+                                                    [duration] => Array
+                                                        (
+                                                            [value] => 10
+                                                            [text] => 1 min
+                                                        )
+
+                                                    [html_instructions] => Continue straight onto <b>nám. Republiky</b>
+                                                    [distance] => Array
+                                                        (
+                                                            [value] => 77
+                                                            [text] => 77 m
+                                                        )
+
+                                                )
+
+                                            [17] => Array
+                                                (
+                                                    [travel_mode] => DRIVING
+                                                    [start_location] => Array
+                                                        (
+                                                            [lat] => 50.02851
+                                                            [lng] => 15.19798
+                                                        )
+
+                                                    [end_location] => Array
+                                                        (
+                                                            [lat] => 50.02801
+                                                            [lng] => 15.20069
+                                                        )
+
+                                                    [polyline] => Array
+                                                        (
+                                                            [points] => eejpHkjw{AMa@Bg@dBiKFiA
+                                                            [levels] => B???B
+                                                        )
+
+                                                    [duration] => Array
+                                                        (
+                                                            [value] => 52
+                                                            [text] => 1 min
+                                                        )
+
+                                                    [html_instructions] => Slight <b>right</b> at <b>Pražská</b>
+                                                    [distance] => Array
+                                                        (
+                                                            [value] => 207
+                                                            [text] => 0.2 km
+                                                        )
+
+                                                )
+
+                                            [18] => Array
+                                                (
+                                                    [travel_mode] => DRIVING
+                                                    [start_location] => Array
+                                                        (
+                                                            [lat] => 50.02801
+                                                            [lng] => 15.20069
+                                                        )
+
+                                                    [end_location] => Array
+                                                        (
+                                                            [lat] => 50.0279
+                                                            [lng] => 15.2011
+                                                        )
+
+                                                    [polyline] => Array
+                                                        (
+                                                            [points] => abjpHi{w{ATqA
+                                                            [levels] => BB
+                                                        )
+
+                                                    [duration] => Array
+                                                        (
+                                                            [value] => 7
+                                                            [text] => 1 min
+                                                        )
+
+                                                    [html_instructions] => Continue onto <b>Karlovo nám.</b><div style="font-size:0.9em">Destination will be on the left</div>
+                                                    [distance] => Array
+                                                        (
+                                                            [value] => 32
+                                                            [text] => 32 m
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [duration] => Array
+                                        (
+                                            [value] => 7395
+                                            [text] => 2 hours 3 mins
+                                        )
+
+                                    [distance] => Array
+                                        (
+                                            [value] => 188148
+                                            [text] => 188 km
+                                        )
+
+                                    [start_location] => Array
+                                        (
+                                            [lat] => 49.19098
+                                            [lng] => 16.61153
+                                        )
+
+                                    [end_location] => Array
+                                        (
+                                            [lat] => 50.0279
+                                            [lng] => 15.2011
+                                        )
+
+                                    [start_address] => Brno, Czech Republic
+                                    [end_address] => 280 02 Kolín District, Czech Republic
+                                    [via_waypoint] => Array
+                                        (
+                                        )
+
+                                )
+
+                        )
+
+                    [copyrights] => Map data ©2011 Google, Tele Atlas
+                    [overview_polyline] => Array
+                        (
+                            [points] => srfkHamkdBxFrS|_@vc@jD}Kxb@bDzv@~\rj@KjHhSyEjfA|CxhAmCvn@sd@rxBeXt~CgTzcAgPp}A_b@jkBog@vjEkXp_Aga@`t@uZnXwm@l[o^nb@wu@jbCmtBnoCegAjbC{Jxr@uHnmCyaA~}DoRdwGen@puEoRjr@i}@xpBw[bdAmVvtAmc@djEyv@l~BeZfqAyTfg@sc@`m@}jBhlEyj@|y@eg@nfBuJ`m@}OtaCkkCbhLmVxeBq_@fdB_n@hcHgRnzD?bjDe]vxJwHvl@or@t}Bu[boDaUfz@}dCjvG_K`j@{FpaAgJf_@au@z~@qZpw@sb@|[yO|[a\veDqnAxpHuoAztByi@fh@kNf_@oC~o@xQbdDT|w@{I|_Aki@fgCaMncDcLlo@oPn`@e\z\}|A`c@eRlMiUj\_U`u@eQdqBep@tzBkRl^ehA`uAaeA~pCgJh}@`Q|gAIfm@{q@t{Ceb@ziEuKr`@iUfU}`Bxl@glHtyAcb@|c@ii@b`BeOnJql@xIeSpP{Sbh@m`@deCcMf\unCz|A}nAh~AsGpZU|_@lSvtAnC~y@mIjcAkVho@gCwG~DwLyN_Mg[iBuShIwF}H{GnByLcN{J}kA{g@epBsKwOiLmEky@{EaHaj@_BfGeIFIkJeLoJoqA{^q[tKyL|PiaAxP{]e^aNuDoU_\mo@mc@eJqQwg@s[a@iKeVi@_Iq[kl@gWo}@iDmY{r@sl@qVaf@u|@sp@kRy\fRgOaAmI_IkKi]uv@ah@cS}Dis@_b@iTaBeXnL{DkHwc@|LiR_EeB_MmNoAga@u[mHse@klBaiEuvAkoBsjAcfAsdA_hCoi@s\iMmAyFxOsEg@xBoR
+                            [levels] => B@@@@@@A@@@@@@@@A@@@@@@@A@@@@A@@@@@@A@@@@A@@@@A@@@@@@A@@@@@@@@A@A@@A@@@@@@A@@@@A@@@@@A@@@@@B@@A@@@@A@@A@A@@@@@B@@@@@@@@@@@@@A@@@@@@@A@@@@@@@@@@@@@A@@@@@@@@@@@@A@@@@@@@@@@@@B
+                        )
+
+                    [warnings] => Array
+                        (
+                        )
+
+                    [waypoint_order] => Array
+                        (
+                        )
+
+                    [bounds] => Array
+                        (
+                            [southwest] => Array
+                                (
+                                    [lat] => 49.16045
+                                    [lng] => 14.97256
+                                )
+
+                            [northeast] => Array
+                                (
+                                    [lat] => 50.02851
+                                    [lng] => 16.61153
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+

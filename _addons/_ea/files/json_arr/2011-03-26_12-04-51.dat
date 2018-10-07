@@ -1,0 +1,988 @@
+26/03/2011 12:04:51
+Array
+(
+    [status] => OK
+    [routes] => Array
+        (
+            [0] => Array
+                (
+                    [summary] => Route 11/E-75
+                    [legs] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [steps] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [travel_mode] => DRIVING
+                                                    [start_location] => Array
+                                                        (
+                                                            [lat] => 49.8538
+                                                            [lng] => 18.54083
+                                                        )
+
+                                                    [end_location] => Array
+                                                        (
+                                                            [lat] => 49.85454
+                                                            [lng] => 18.54143
+                                                        )
+
+                                                    [polyline] => Array
+                                                        (
+                                                            [points] => gahoHegdpBgAeAkAq@
+                                                            [levels] => B?B
+                                                        )
+
+                                                    [duration] => Array
+                                                        (
+                                                            [value] => 16
+                                                            [text] => 1 min
+                                                        )
+
+                                                    [html_instructions] => Head <b>northeast</b> on <b>Masarykovo nám.</b>
+                                                    [distance] => Array
+                                                        (
+                                                            [value] => 94
+                                                            [text] => 94 m
+                                                        )
+
+                                                )
+
+                                            [1] => Array
+                                                (
+                                                    [travel_mode] => DRIVING
+                                                    [start_location] => Array
+                                                        (
+                                                            [lat] => 49.85454
+                                                            [lng] => 18.54143
+                                                        )
+
+                                                    [end_location] => Array
+                                                        (
+                                                            [lat] => 49.85479
+                                                            [lng] => 18.54066
+                                                        )
+
+                                                    [polyline] => Array
+                                                        (
+                                                            [points] => {ehoH}jdpBq@xC
+                                                            [levels] => BB
+                                                        )
+
+                                                    [duration] => Array
+                                                        (
+                                                            [value] => 16
+                                                            [text] => 1 min
+                                                        )
+
+                                                    [html_instructions] => Turn <b>left</b> to stay on <b>Masarykovo nám.</b>
+                                                    [distance] => Array
+                                                        (
+                                                            [value] => 62
+                                                            [text] => 62 m
+                                                        )
+
+                                                )
+
+                                            [2] => Array
+                                                (
+                                                    [travel_mode] => DRIVING
+                                                    [start_location] => Array
+                                                        (
+                                                            [lat] => 49.85479
+                                                            [lng] => 18.54066
+                                                        )
+
+                                                    [end_location] => Array
+                                                        (
+                                                            [lat] => 49.85598
+                                                            [lng] => 18.53862
+                                                        )
+
+                                                    [polyline] => Array
+                                                        (
+                                                            [points] => mghoHcfdpBg@jAw@`AmChG
+                                                            [levels] => B??B
+                                                        )
+
+                                                    [duration] => Array
+                                                        (
+                                                            [value] => 34
+                                                            [text] => 1 min
+                                                        )
+
+                                                    [html_instructions] => Continue onto <b>Svatopluka Čecha</b>
+                                                    [distance] => Array
+                                                        (
+                                                            [value] => 198
+                                                            [text] => 0.2 km
+                                                        )
+
+                                                )
+
+                                            [3] => Array
+                                                (
+                                                    [travel_mode] => DRIVING
+                                                    [start_location] => Array
+                                                        (
+                                                            [lat] => 49.85598
+                                                            [lng] => 18.53862
+                                                        )
+
+                                                    [end_location] => Array
+                                                        (
+                                                            [lat] => 49.85627
+                                                            [lng] => 18.53871
+                                                        )
+
+                                                    [polyline] => Array
+                                                        (
+                                                            [points] => {nhoHkycpBa@?WQ
+                                                            [levels] => B?B
+                                                        )
+
+                                                    [duration] => Array
+                                                        (
+                                                            [value] => 12
+                                                            [text] => 1 min
+                                                        )
+
+                                                    [html_instructions] => Turn <b>right</b> to stay on <b>Svatopluka Čecha</b>
+                                                    [distance] => Array
+                                                        (
+                                                            [value] => 33
+                                                            [text] => 33 m
+                                                        )
+
+                                                )
+
+                                            [4] => Array
+                                                (
+                                                    [travel_mode] => DRIVING
+                                                    [start_location] => Array
+                                                        (
+                                                            [lat] => 49.85627
+                                                            [lng] => 18.53871
+                                                        )
+
+                                                    [end_location] => Array
+                                                        (
+                                                            [lat] => 49.84277
+                                                            [lng] => 18.55672
+                                                        )
+
+                                                    [polyline] => Array
+                                                        (
+                                                            [points] => uphoH}ycpBoCoQ]qEEyADgB\sD`AeEnFePbAkB`@c@rAy@hDm@lLk@dDk@hCcAtA}@pDmDtSmWLF^CRc@?e@zDqB|Cu@lBQ
+                                                            [levels] => B???@???@?????@??????@??B
+                                                        )
+
+                                                    [duration] => Array
+                                                        (
+                                                            [value] => 244
+                                                            [text] => 4 mins
+                                                        )
+
+                                                    [html_instructions] => Turn <b>right</b> at <b>tř. 17. listopadu</b><div style="font-size:0.9em">Go through 1 roundabout</div>
+                                                    [distance] => Array
+                                                        (
+                                                            [value] => 2349
+                                                            [text] => 2.3 km
+                                                        )
+
+                                                )
+
+                                            [5] => Array
+                                                (
+                                                    [travel_mode] => DRIVING
+                                                    [start_location] => Array
+                                                        (
+                                                            [lat] => 49.84277
+                                                            [lng] => 18.55672
+                                                        )
+
+                                                    [end_location] => Array
+                                                        (
+                                                            [lat] => 49.76884
+                                                            [lng] => 18.60737
+                                                        )
+
+                                                    [polyline] => Array
+                                                        (
+                                                            [points] => i|eoHojgpBtTiA|@UtAo@bAu@jBqB~\cn@`B}BxCeCdAk@pC}@rCe@xFU`Cm@rC_BzB{B|LqS|A{BfGaH|GmGhRgMdCqA|LeFrJyCdH{Av`@oFbOcBdDq@jGuBnGgD~E}CfAa@bGoAn@]xWiUfKgIhDyBrBaBzJ}LdA_AtBk@zAI~@FnI|CfBX`CWbBy@`BiAnAsAfL}M|CgC|B}BfNaQhKqLdEyCnYwN
+                                                            [levels] => B???@??@??????@???@?@??@???@????@??????@??????@??????@?B
+                                                        )
+
+                                                    [duration] => Array
+                                                        (
+                                                            [value] => 530
+                                                            [text] => 9 mins
+                                                        )
+
+                                                    [html_instructions] => Continue onto <b>Route 67</b>
+                                                    [distance] => Array
+                                                        (
+                                                            [value] => 9270
+                                                            [text] => 9.3 km
+                                                        )
+
+                                                )
+
+                                            [6] => Array
+                                                (
+                                                    [travel_mode] => DRIVING
+                                                    [start_location] => Array
+                                                        (
+                                                            [lat] => 49.76884
+                                                            [lng] => 18.60737
+                                                        )
+
+                                                    [end_location] => Array
+                                                        (
+                                                            [lat] => 49.76684
+                                                            [lng] => 18.60357
+                                                        )
+
+                                                    [polyline] => Array
+                                                        (
+                                                            [points] => gnwnHagqpB`AzCv@hB^r@pCtDbBfG
+                                                            [levels] => B????B
+                                                        )
+
+                                                    [duration] => Array
+                                                        (
+                                                            [value] => 34
+                                                            [text] => 1 min
+                                                        )
+
+                                                    [html_instructions] => Turn <b>right</b> at <b>U Mlýnky</b>
+                                                    [distance] => Array
+                                                        (
+                                                            [value] => 356
+                                                            [text] => 0.4 km
+                                                        )
+
+                                                )
+
+                                            [7] => Array
+                                                (
+                                                    [travel_mode] => DRIVING
+                                                    [start_location] => Array
+                                                        (
+                                                            [lat] => 49.76684
+                                                            [lng] => 18.60357
+                                                        )
+
+                                                    [end_location] => Array
+                                                        (
+                                                            [lat] => 49.76252
+                                                            [lng] => 18.60838
+                                                        )
+
+                                                    [polyline] => Array
+                                                        (
+                                                            [points] => wawnHioppBbEgB~A_AbCgBrD_EjD}FtAoD@cA
+                                                            [levels] => B???@??B
+                                                        )
+
+                                                    [duration] => Array
+                                                        (
+                                                            [value] => 75
+                                                            [text] => 1 min
+                                                        )
+
+                                                    [html_instructions] => Take the 3rd <b>left</b> onto <b>Chotěbuzská</b>
+                                                    [distance] => Array
+                                                        (
+                                                            [value] => 614
+                                                            [text] => 0.6 km
+                                                        )
+
+                                                )
+
+                                            [8] => Array
+                                                (
+                                                    [travel_mode] => DRIVING
+                                                    [start_location] => Array
+                                                        (
+                                                            [lat] => 49.76252
+                                                            [lng] => 18.60838
+                                                        )
+
+                                                    [end_location] => Array
+                                                        (
+                                                            [lat] => 49.76232
+                                                            [lng] => 18.60846
+                                                        )
+
+                                                    [polyline] => Array
+                                                        (
+                                                            [points] => wfvnHkmqpBf@O
+                                                            [levels] => BB
+                                                        )
+
+                                                    [duration] => Array
+                                                        (
+                                                            [value] => 10
+                                                            [text] => 1 min
+                                                        )
+
+                                                    [html_instructions] => Turn <b>right</b> to stay on <b>Chotěbuzská</b>
+                                                    [distance] => Array
+                                                        (
+                                                            [value] => 23
+                                                            [text] => 23 m
+                                                        )
+
+                                                )
+
+                                            [9] => Array
+                                                (
+                                                    [travel_mode] => DRIVING
+                                                    [start_location] => Array
+                                                        (
+                                                            [lat] => 49.76232
+                                                            [lng] => 18.60846
+                                                        )
+
+                                                    [end_location] => Array
+                                                        (
+                                                            [lat] => 49.76217
+                                                            [lng] => 18.60808
+                                                        )
+
+                                                    [polyline] => Array
+                                                        (
+                                                            [points] => oevnH{mqpB\jA
+                                                            [levels] => BB
+                                                        )
+
+                                                    [duration] => Array
+                                                        (
+                                                            [value] => 32
+                                                            [text] => 1 min
+                                                        )
+
+                                                    [html_instructions] => Turn <b>right</b> to stay on <b>Chotěbuzská</b>
+                                                    [distance] => Array
+                                                        (
+                                                            [value] => 32
+                                                            [text] => 32 m
+                                                        )
+
+                                                )
+
+                                            [10] => Array
+                                                (
+                                                    [travel_mode] => DRIVING
+                                                    [start_location] => Array
+                                                        (
+                                                            [lat] => 49.76217
+                                                            [lng] => 18.60808
+                                                        )
+
+                                                    [end_location] => Array
+                                                        (
+                                                            [lat] => 49.72937
+                                                            [lng] => 18.6048
+                                                        )
+
+                                                    [polyline] => Array
+                                                        (
+                                                            [points] => qdvnHokqpBjBrGjIz_@bDrL`B~DdD~ElChC|C`BzBp@hC\dB?hDYbCg@zDoA~D}@tGg@vBI|ADbNxAvCJvACdC[vBg@jBu@fDoB`DsCn@y@rH}LpGgLhBkCtB_CfDoCjGsCvBi@nGi@`CDbDXtCn@tCjA`DnB
+                                                            [levels] => B???@?@??A?????@???@???@??????@?@???@??B
+                                                        )
+
+                                                    [duration] => Array
+                                                        (
+                                                            [value] => 199
+                                                            [text] => 3 mins
+                                                        )
+
+                                                    [html_instructions] => Continue onto <b>Route 48/E-75/E462</b>
+                                                    [distance] => Array
+                                                        (
+                                                            [value] => 4363
+                                                            [text] => 4.4 km
+                                                        )
+
+                                                )
+
+                                            [11] => Array
+                                                (
+                                                    [travel_mode] => DRIVING
+                                                    [start_location] => Array
+                                                        (
+                                                            [lat] => 49.72937
+                                                            [lng] => 18.6048
+                                                        )
+
+                                                    [end_location] => Array
+                                                        (
+                                                            [lat] => 49.72876
+                                                            [lng] => 18.60285
+                                                        )
+
+                                                    [polyline] => Array
+                                                        (
+                                                            [points] => qwonH_wppBXh@jAfAL\NxAIzC
+                                                            [levels] => B????B
+                                                        )
+
+                                                    [duration] => Array
+                                                        (
+                                                            [value] => 14
+                                                            [text] => 1 min
+                                                        )
+
+                                                    [html_instructions] => Take exit <b>70</b> for <b>11/E75</b> toward <b>Žilina/Mosty u Jablunkova/Třinec</b>
+                                                    [distance] => Array
+                                                        (
+                                                            [value] => 173
+                                                            [text] => 0.2 km
+                                                        )
+
+                                                )
+
+                                            [12] => Array
+                                                (
+                                                    [travel_mode] => DRIVING
+                                                    [start_location] => Array
+                                                        (
+                                                            [lat] => 49.72876
+                                                            [lng] => 18.60285
+                                                        )
+
+                                                    [end_location] => Array
+                                                        (
+                                                            [lat] => 49.72003
+                                                            [lng] => 18.62113
+                                                        )
+
+                                                    [polyline] => Array
+                                                        (
+                                                            [points] => wsonHyjppB@xAJp@l@zA`@^dAZ~@Sd@]lAsBfCsFzA_E|CuJlBeKv@}HdBib@d@iFx@aEl@sBrAeDrC_EpAoApBqApBs@~@Q
+                                                            [levels] => B??@??@???@?@???@??@???B
+                                                        )
+
+                                                    [duration] => Array
+                                                        (
+                                                            [value] => 82
+                                                            [text] => 1 min
+                                                        )
+
+                                                    [html_instructions] => Merge onto <b>Route 11/E-75</b>
+                                                    [distance] => Array
+                                                        (
+                                                            [value] => 1942
+                                                            [text] => 1.9 km
+                                                        )
+
+                                                )
+
+                                            [13] => Array
+                                                (
+                                                    [travel_mode] => DRIVING
+                                                    [start_location] => Array
+                                                        (
+                                                            [lat] => 49.72003
+                                                            [lng] => 18.62113
+                                                        )
+
+                                                    [end_location] => Array
+                                                        (
+                                                            [lat] => 49.68388
+                                                            [lng] => 18.66793
+                                                        )
+
+                                                    [polyline] => Array
+                                                        (
+                                                            [points] => e}mnHa}spBfA@XHrA|Ap@Pl@UPWjA}Cl@iDRoESgL?{D^sD~@iFx@{C`BmDrAoBfCkCrDsC~EaDzC{AtFsB`FcAlFs@`A[tB}@|CkC~AaCvLeOjDyEnWqZfC_C|H{JvM{V~h@s_AnVmYvB_F|AkG
+                                                            [levels] => B???@??@????@???@???@?????@?????@????B
+                                                        )
+
+                                                    [duration] => Array
+                                                        (
+                                                            [value] => 335
+                                                            [text] => 6 mins
+                                                        )
+
+                                                    [html_instructions] => Exit onto <b>Route 468</b> toward <b>Třinec</b>
+                                                    [distance] => Array
+                                                        (
+                                                            [value] => 5550
+                                                            [text] => 5.6 km
+                                                        )
+
+                                                )
+
+                                            [14] => Array
+                                                (
+                                                    [travel_mode] => DRIVING
+                                                    [start_location] => Array
+                                                        (
+                                                            [lat] => 49.68388
+                                                            [lng] => 18.66793
+                                                        )
+
+                                                    [end_location] => Array
+                                                        (
+                                                            [lat] => 49.68107
+                                                            [lng] => 18.66614
+                                                        )
+
+                                                    [polyline] => Array
+                                                        (
+                                                            [points] => g{fnHqa}pB\DVQpAPr@\pHvGbAh@
+                                                            [levels] => B?????B
+                                                        )
+
+                                                    [duration] => Array
+                                                        (
+                                                            [value] => 47
+                                                            [text] => 1 min
+                                                        )
+
+                                                    [html_instructions] => At the roundabout, take the <b>1st</b> exit onto <b>Nádražní</b>
+                                                    [distance] => Array
+                                                        (
+                                                            [value] => 347
+                                                            [text] => 0.3 km
+                                                        )
+
+                                                )
+
+                                            [15] => Array
+                                                (
+                                                    [travel_mode] => DRIVING
+                                                    [start_location] => Array
+                                                        (
+                                                            [lat] => 49.68107
+                                                            [lng] => 18.66614
+                                                        )
+
+                                                    [end_location] => Array
+                                                        (
+                                                            [lat] => 49.67772
+                                                            [lng] => 18.67086
+                                                        )
+
+                                                    [polyline] => Array
+                                                        (
+                                                            [points] => uifnHkv|pBKuFh@eF`B}A`E}CnD{AjD{B
+                                                            [levels] => B?@???B
+                                                        )
+
+                                                    [duration] => Array
+                                                        (
+                                                            [value] => 94
+                                                            [text] => 2 mins
+                                                        )
+
+                                                    [html_instructions] => Turn <b>left</b> at <b>1. máje</b>
+                                                    [distance] => Array
+                                                        (
+                                                            [value] => 571
+                                                            [text] => 0.6 km
+                                                        )
+
+                                                )
+
+                                            [16] => Array
+                                                (
+                                                    [travel_mode] => DRIVING
+                                                    [start_location] => Array
+                                                        (
+                                                            [lat] => 49.67772
+                                                            [lng] => 18.67086
+                                                        )
+
+                                                    [end_location] => Array
+                                                        (
+                                                            [lat] => 49.66185
+                                                            [lng] => 18.68832
+                                                        )
+
+                                                    [polyline] => Array
+                                                        (
+                                                            [points] => wtenH{s}pBv@cJLm@|@sAhd@gf@f@EBVLJX?Lc@Qk@d@oAx@gAzCoDnQoQtJyK|HiIxAc@vAKt@F
+                                                            [levels] => B??@????????????@??B
+                                                        )
+
+                                                    [duration] => Array
+                                                        (
+                                                            [value] => 255
+                                                            [text] => 4 mins
+                                                        )
+
+                                                    [html_instructions] => Turn <b>left</b> at <b>Jablunkovská</b><div style="font-size:0.9em">Go through 1 roundabout</div>
+                                                    [distance] => Array
+                                                        (
+                                                            [value] => 2266
+                                                            [text] => 2.3 km
+                                                        )
+
+                                                )
+
+                                            [17] => Array
+                                                (
+                                                    [travel_mode] => DRIVING
+                                                    [start_location] => Array
+                                                        (
+                                                            [lat] => 49.66185
+                                                            [lng] => 18.68832
+                                                        )
+
+                                                    [end_location] => Array
+                                                        (
+                                                            [lat] => 49.66155
+                                                            [lng] => 18.68894
+                                                        )
+
+                                                    [polyline] => Array
+                                                        (
+                                                            [points] => qqbnH_aaqBz@{B
+                                                            [levels] => BB
+                                                        )
+
+                                                    [duration] => Array
+                                                        (
+                                                            [value] => 47
+                                                            [text] => 1 min
+                                                        )
+
+                                                    [html_instructions] => Turn <b>left</b> to stay on <b>Jablunkovská</b>
+                                                    [distance] => Array
+                                                        (
+                                                            [value] => 55
+                                                            [text] => 55 m
+                                                        )
+
+                                                )
+
+                                            [18] => Array
+                                                (
+                                                    [travel_mode] => DRIVING
+                                                    [start_location] => Array
+                                                        (
+                                                            [lat] => 49.66155
+                                                            [lng] => 18.68894
+                                                        )
+
+                                                    [end_location] => Array
+                                                        (
+                                                            [lat] => 49.49587
+                                                            [lng] => 18.76497
+                                                        )
+
+                                                    [polyline] => Array
+                                                        (
+                                                            [points] => uobnH{daqB|F_GzMwP|CaEtGqKbBwB|AsAtBaC|XsXnOsNtBaCxBeBbOkJfd@wVzEiEfC{ChVk_@rF{J~EiKzVsp@n@sAzCuErBaBbl@{`@rAgAv@a@jB_AdDeAhMyE|b@_OpSgJjJ_FhFs@nDHdALld@hK~Gt@hI?zb@kF~AGvFFvDl@`EpArK~EbBl@pEbAjD^~DNrA?tDSjC]bE}@rFcBlGmDlEsEhCeDdDsEpBiDnCoDnDaDzDqBfFoA`DKjBBh\zBtB?vBOjDo@`Cm@~DsAbCmAfJiHlE_FfQsT`BkBxDmD|DgC|As@`C_ApFiAhf@sGdMcApCB|HfAbAVdQrGdEfArB\tCRbIVrL|@lARzd@hNbRhBfMe@zBYbDq@pC_A`DuApFyCZEvIwFjIaG~GcErHwDdM_FjE}DrAeBb@y@
+                                                            [levels] => B????@????@????@?@???@???@?????A??@?@???@????@???A???@??????@?@??@???@?????@???A??@???@????@@?@?????@????@??B
+                                                        )
+
+                                                    [duration] => Array
+                                                        (
+                                                            [value] => 1102
+                                                            [text] => 18 mins
+                                                        )
+
+                                                    [html_instructions] => Continue onto <b>Route 11/E-75</b><div style="font-size:0.9em">Entering Slovakia</div>
+                                                    [distance] => Array
+                                                        (
+                                                            [value] => 20331
+                                                            [text] => 20.3 km
+                                                        )
+
+                                                )
+
+                                            [19] => Array
+                                                (
+                                                    [travel_mode] => DRIVING
+                                                    [start_location] => Array
+                                                        (
+                                                            [lat] => 49.49587
+                                                            [lng] => 18.76497
+                                                        )
+
+                                                    [end_location] => Array
+                                                        (
+                                                            [lat] => 49.23052
+                                                            [lng] => 18.73237
+                                                        )
+
+                                                    [polyline] => Array
+                                                        (
+                                                            [points] => edbmHa`pqBxBmDjAsCfEeNCMnByLn@_Lx@wUn@gGdAkGvBqH~A{D~FiPtAwCpAoBjAqAxKuJnGiHv@q@fCwAvGiBnBs@rBcAtBkBvAeBbE}G`@_@d@Sb@@t@ZrYdSbLjH~FbDnChAbATp@BzAOx@c@fBuAr@KnEz@lAHjBIzG_A|BHfATpCpAnBpA`VzUpKzExB|@vA`@d@@z@UdCsAf@MhAK`AD|Ah@fCpBtAxBlCfGbArAlAp@|@R|AJfD_@tBi@nBmA~WgYlHkINGt@oAtF}LpBiDpBgKv@uGPqFUoCJsEnAeFvAoBpAcAlB{@nLqBfDoA`CaBrB_CrBqDv@eCtAoHf@sGH{F?wFGq@p@cLf@sCjB_GrC}D~NgMdCsCjBoDvB{Gz@sFj@kLQeNyAqb@BgIz@uI|AwGnBkEh@w@fCsCtB}AlCcAnCe@rBGbGB`FNtDCvDSxC_@lFyAlH{DjQuLpFyC~G}BzDq@|E[~B?nDR`IdAvF`CjErClJjHlEvCbHhDzDnAzCr@nGx@vBJpDDpCIpCStEq@xEmA`EsAjPqGvFiB|Cw@fDm@~Ju@vEFzDVxInA~D|@dD`AxHxClDjBzFdEjFtFtKjMhBfBrCrBnBhAnCfAdElAjE~@xClAfAh@xAfAxB`CfBvCxBpFpBjL`Bv\^lKdAzKjAvGjC|Ix@nBjC`FpCrD|BzBrCpBtCtAdD`A~AVrDTxH[zYuBnDIfFPzCXlIvAj[dGnCPzDEhJqA`CQ~BB|CRxH`AdB\dA`@z@f@vBhBbE~EtCrCzBxAtAn@hDfAzDb@~A?fCKvUmBzFOdBJ|AVtBr@zAv@pA|@zHpHjAz@vDtB`MvDdJ`G`FjElFpFxEtFrDtD~OhObE`F~@xAt@bB|A`Ch@lAKTDXLHRCFLzGhPfBbD`ApAbClBlQrItJpFhCtB`FvE|OrOnHlJnEpH~BpE~DxIfF|JxQra@zAdCfAzAfB~AlBrA|JbFnAz@hBdBhDjFjFpNvChGrCxD`B|AhBpArBdAnAf@|Bf@lERdEDt@L~CGlMPfD`@rDjAvBnAlM~ItG~DfG`D~CrAlWtJpCzA|CzBfEvDrCdDvYf_@bBvAx@TzAJjAS`@YrByCbBkBtA]pBEh@HdGpC~M~GzCjCrA|A|@`BtC~G
+                                                            [levels] => B??@?????@??@????@????@????A?????@???????????@???@????????@????@????A??@??@?????@????@??@???????@?????@?@??@?@???A???????@???@??@??@????@???@???@?????@?A????@?????@???????@??@???@??@??A???@???@???@????@??@??????@????@???A??????@????@???????????@??@??@??????@?????@????A???@??????@???????@???@??@??@??@?@???B
+                                                        )
+
+                                                    [duration] => Array
+                                                        (
+                                                            [value] => 2178
+                                                            [text] => 36 mins
+                                                        )
+
+                                                    [html_instructions] => Continue onto <b>Route 11/E-75</b><div style="font-size:0.9em">Continue to follow E-75</div><div style="font-size:0.9em">Go through 1 roundabout</div>
+                                                    [distance] => Array
+                                                        (
+                                                            [value] => 36946
+                                                            [text] => 36.9 km
+                                                        )
+
+                                                )
+
+                                            [20] => Array
+                                                (
+                                                    [travel_mode] => DRIVING
+                                                    [start_location] => Array
+                                                        (
+                                                            [lat] => 49.23052
+                                                            [lng] => 18.73237
+                                                        )
+
+                                                    [end_location] => Array
+                                                        (
+                                                            [lat] => 49.22228
+                                                            [lng] => 18.73055
+                                                        )
+
+                                                    [polyline] => Array
+                                                        (
+                                                            [points] => winkHitiqB`CjGvCrKd@nA~@vA~@r@`A\`AFh@EfAe@j@c@rC_DhBkApEwA|LaD
+                                                            [levels] => B?????@???????B
+                                                        )
+
+                                                    [duration] => Array
+                                                        (
+                                                            [value] => 83
+                                                            [text] => 1 min
+                                                        )
+
+                                                    [html_instructions] => Continue onto <b>Route 64</b> (signs for <b>Prievidza</b>)
+                                                    [distance] => Array
+                                                        (
+                                                            [value] => 1125
+                                                            [text] => 1.1 km
+                                                        )
+
+                                                )
+
+                                            [21] => Array
+                                                (
+                                                    [travel_mode] => DRIVING
+                                                    [start_location] => Array
+                                                        (
+                                                            [lat] => 49.22228
+                                                            [lng] => 18.73055
+                                                        )
+
+                                                    [end_location] => Array
+                                                        (
+                                                            [lat] => 49.21921
+                                                            [lng] => 18.73135
+                                                        )
+
+                                                    [polyline] => Array
+                                                        (
+                                                            [points] => gvlkH}hiqBBK`@QzFaB~Fa@bA@
+                                                            [levels] => B????B
+                                                        )
+
+                                                    [duration] => Array
+                                                        (
+                                                            [value] => 30
+                                                            [text] => 1 min
+                                                        )
+
+                                                    [html_instructions] => Slight <b>left</b> at <b>Mostná</b>
+                                                    [distance] => Array
+                                                        (
+                                                            [value] => 350
+                                                            [text] => 0.4 km
+                                                        )
+
+                                                )
+
+                                            [22] => Array
+                                                (
+                                                    [travel_mode] => DRIVING
+                                                    [start_location] => Array
+                                                        (
+                                                            [lat] => 49.21921
+                                                            [lng] => 18.73135
+                                                        )
+
+                                                    [end_location] => Array
+                                                        (
+                                                            [lat] => 49.22153
+                                                            [lng] => 18.73782
+                                                        )
+
+                                                    [polyline] => Array
+                                                        (
+                                                            [points] => aclkH}miqBNxAz@fBt@P|@a@Vk@FcAOiBcEoF{Mu^
+                                                            [levels] => B???@??@?B
+                                                        )
+
+                                                    [duration] => Array
+                                                        (
+                                                            [value] => 103
+                                                            [text] => 2 mins
+                                                        )
+
+                                                    [html_instructions] => At the roundabout, take the <b>3rd</b> exit onto <b>Hálkova</b>
+                                                    [distance] => Array
+                                                        (
+                                                            [value] => 832
+                                                            [text] => 0.8 km
+                                                        )
+
+                                                )
+
+                                            [23] => Array
+                                                (
+                                                    [travel_mode] => DRIVING
+                                                    [start_location] => Array
+                                                        (
+                                                            [lat] => 49.22153
+                                                            [lng] => 18.73782
+                                                        )
+
+                                                    [end_location] => Array
+                                                        (
+                                                            [lat] => 49.22137
+                                                            [lng] => 18.73858
+                                                        )
+
+                                                    [polyline] => Array
+                                                        (
+                                                            [points] => qqlkHkvjqB^wC
+                                                            [levels] => BB
+                                                        )
+
+                                                    [duration] => Array
+                                                        (
+                                                            [value] => 15
+                                                            [text] => 1 min
+                                                        )
+
+                                                    [html_instructions] => Turn <b>right</b> at <b>Romualda Zaymusa</b>
+                                                    [distance] => Array
+                                                        (
+                                                            [value] => 59
+                                                            [text] => 59 m
+                                                        )
+
+                                                )
+
+                                            [24] => Array
+                                                (
+                                                    [travel_mode] => DRIVING
+                                                    [start_location] => Array
+                                                        (
+                                                            [lat] => 49.22137
+                                                            [lng] => 18.73858
+                                                        )
+
+                                                    [end_location] => Array
+                                                        (
+                                                            [lat] => 49.22146
+                                                            [lng] => 18.73996
+                                                        )
+
+                                                    [polyline] => Array
+                                                        (
+                                                            [points] => qplkHc{jqBQsG
+                                                            [levels] => BB
+                                                        )
+
+                                                    [duration] => Array
+                                                        (
+                                                            [value] => 22
+                                                            [text] => 1 min
+                                                        )
+
+                                                    [html_instructions] => Slight <b>left</b> to stay on <b>Romualda Zaymusa</b>
+                                                    [distance] => Array
+                                                        (
+                                                            [value] => 101
+                                                            [text] => 0.1 km
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [duration] => Array
+                                        (
+                                            [value] => 5609
+                                            [text] => 1 hour 33 mins
+                                        )
+
+                                    [distance] => Array
+                                        (
+                                            [value] => 88042
+                                            [text] => 88.0 km
+                                        )
+
+                                    [start_location] => Array
+                                        (
+                                            [lat] => 49.8538
+                                            [lng] => 18.54083
+                                        )
+
+                                    [end_location] => Array
+                                        (
+                                            [lat] => 49.22146
+                                            [lng] => 18.73996
+                                        )
+
+                                    [start_address] => Karviná District, Czech Republic
+                                    [end_address] => Žilina, Slovakia
+                                    [via_waypoint] => Array
+                                        (
+                                        )
+
+                                )
+
+                        )
+
+                    [copyrights] => Map data ©2011 PPWK, Tele Atlas
+                    [overview_polyline] => Array
+                        (
+                            [points] => gahoHegdpBsCwB_HpPy@QoCoQ]sK~AyJrHqStB}AvQyAnHoBfGkFtSmWl@BRiAzDqB`]qCvE{Blc@su@pJoFlK{@tGmCvSi[dPoPhRgMtS}IfQoE`v@eKjGuBnNeIjIqBnn@kg@`M}NpGm@vLvDdFqAtZa[pZs^t_@qSjHnNbBfGbHgDvHgHjHaOtMzj@dGrRrHhJbLpDnGY~NuDtGg@pY`B`M}BxJ}HdXqb@fDoCbK}DpKc@nMtCfG`FTlJx@lCfBz@dBq@pHgP`FuQ`BcNrBme@pAgI`CyGhHcIfHaB~CxBlBaCvA_JR{ZxBeKtD}GzH_HzJ}FfWgGrGiEx{@oeAvw@owAnVmYtEkNzDb@tJ`I\{M~RsMv@cJjAaChd@gf@rA\CoA~AwC~k@cn@fFg@lh@_s@pw@ev@jt@cb@zEiEdb@cp@z]}|@jEiHjr@ef@p{@a[|^gQhFs@tFVlm@~LhI?vi@sFrHt@j[bL~Ln@`Iq@vLaDlGmD~Vg\jIcGhLkBjc@~BxNoCnF_CfJiHvZ__@vJuHpM}Dhf@sGdMcAnMjAnYrJna@zC~a@hMjHfArK`AfVqB`QuHb]}TxVwK~GcHhF{JfEeNjBgMrDsn@bOod@fDgGtVqV~DiCzNaFxMcP`v@|d@pEHtEeC|GdAfKiAdE^`GbD`VzUbRzHnGuB~DJpDhCrItN|Dp@|GiAle@if@|KwThD}SFuQnAeFvGoFvQaEtFaFrBqDlCuLh@yXxAwPjB_GrC}DdS{QbFkMz@sFj@kLgB_|@lAmKzDkLpFaG`FuBx`@g@fKyBb_@mUfK{DxOmApNxAvF`Cv[pTnI~CjLlBzLFfJeA~d@}OdU{ClVnB~SxGhLpHxXfZdIfErRdG|GlHvCdHpBjL`Cdi@pCrTpInTbL`LzHvCrGl@di@{CbKj@dg@dJ~GBjNcBvQxAfFfBpM|MzJpEzGb@~^iC~Gb@bHhDhNnLvOjFdJ`Grn@rn@`H`LrOp\fa@rTj^p]|O`W|a@p|@nDzDdTxMhDjFbKzV~IhJlJ|Cj_@h@zIlBzYnRtd@jRnHvEvg@|l@`FLxF_HfEc@nWzLxFvF|GvOjFjQ`EhDrDc@hHoGp\yJbI_@jA`E|@NfA{@A}DcEoF{Mu^LkL
+                            [levels] => B@?@?@?@??@????@?@@??@?@?@?@??@?@??@?@A?@?@@?@@A??@@@?@?@?@@?@?A?@??@?@@@@?@?A?@?@@??@?@@@?@????@@@@?@@?@A??@?@?@?@?A?@?@@@@?@?@?A?@@@?@?A???@?@?@@?@?@A@????@?@@?@?@?A@@??@?@?@??@?@@?@?@?A?@?@?B?@?@?@?@?@?A?@?@@?@?@@A?@@?@??@??@??@???A@?@@@?@?@??A??@??@@@?@@???A??@@@?@??@B
+                        )
+
+                    [warnings] => Array
+                        (
+                        )
+
+                    [waypoint_order] => Array
+                        (
+                        )
+
+                    [bounds] => Array
+                        (
+                            [southwest] => Array
+                                (
+                                    [lat] => 49.21816
+                                    [lng] => 18.53862
+                                )
+
+                            [northeast] => Array
+                                (
+                                    [lat] => 49.85714
+                                    [lng] => 18.84338
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+

@@ -1,0 +1,69 @@
+#!/usr/bin/env python
+#-*- coding:utf-8 -*-
+###
+# @Author   http://martinbortel.cz
+# @Contact  martin.bortel@gmail.com
+# @Created  07/10/2018
+#
+# @Package  Distribution route
+###
+
+include baseconfig_inc
+
+
+//baseconfig.inc.php - config array
+global $config;
+//Tools
+global $Tools;
+/* @var $Tools Tools */
+
+require_once($config['basepath']."include/Tools.class.php");
+$Tools = new Tools();
+
+//Database
+require_once($config['basepath']."resources/DbObject.php");
+require_once($config['basepath']."resources/DbCollection.php");
+
+//context
+global $Context; /* @var $Context Context */
+require_once($config['basepath']."include/Context.php");
+$Context = new Context(1);
+
+        require_once("{$config['basepath']}resources/Log.php");
+        $Tools->Log = new Log(); /* @var $Tools->Log Log */
+
+//Engine
+require_once($config['basepath']."include/Gene.class.php");
+require_once($config['basepath']."include/Chromosome.class.php");
+require_once($config['basepath']."include/Population.class.php");
+require_once($config['basepath']."include/FitnessRelation.class.php");
+require_once($config['basepath']."include/Select.class.php");
+require_once($config['basepath']."include/CrossOver.class.php");
+
+//UserInterfaces
+global $Content; /* @var $Content ContentController */
+require_once($config['basepath']."include/ContentController.php");
+$Content = new ContentController();
+
+global $Template;  /* @var $Template Template */
+require_once($config['basepath']."include/Template.class.php");
+$Template = new Template();
+
+global $Page; /* @var $Page Page */
+require_once($config['basepath']."include/Page.class.php");
+$Page = new Page();
+
+//Engine
+global $GoogleAPI; /* @var $GoogleAPI UIGoogleAPI */
+require_once($config['basepath']."include/UIGoogleAPI.class.php");
+$GoogleAPI = new UIGoogleAPI();
+
+global $Randomizer; /* @var $Randomizer Randomizer */
+require_once($config['basepath']."include/Randomizer.class.php");
+$Randomizer = new Randomizer();
+
+class DataDBObject extends DbObject{
+    protected $DBTable = "temp";
+    public $ASSOC = true;
+}
+?>

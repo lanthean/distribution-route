@@ -1,0 +1,89 @@
+<div class="center" style="margin-top: 25px;">
+    <h1>Optimalizace obchodní trasy</h1>
+    {if isset($addons)}<div class="addons">{$addons}</div>{/if}
+    <form action="" method="post">
+<!--        {$config['baseurl']}{$script}/-->
+<table>
+    <tbody>
+        <tr>
+            <td><!-- table addresses -->
+            <table>
+                <tbody>
+                    <tr><td colspan="2" class="center">
+                        <h3>Zadejte jednotlivé body překládky</h3>
+                        <p>Adresy vkládejte ve tvaru např: Gorkého 20, 60200 Brno,
+                            <br />nebo ve formátu GPS souřadnic např: 49.20853N, 16.55968E</p>
+<!--                        49.20853N, 16.55968E 49°11'59.284"N, 16°35'50.115"E-->
+                        </td>
+                    </tr>
+                    
+                    {foreach $Rows as $name => $text}
+                    <tr><td class="left_lb">{$text} adresa:</td>
+                        <td><input id="{$name}" type="text" name="address[{$name}]" value="{$post[$name]}" />
+                            {if isset($error_msg[$name])}<br /><span class="error">{$error_msg[$name]}</span>{/if}</td></tr>
+                    {/foreach}
+                    <tr><td colspan="2" class="right">
+                            <a href="{$sampleLocHref}" target="_blank">přenastavené lokace mapy.cz</a>
+                        </td></tr>
+                </tbody>
+            </table>        
+                
+            </td>
+            <td><!-- table settings -->
+                <table>
+                    <tbody>
+                    <tr><td colspan="2" class="center">
+                            <h3>Nastavení Evolučního algoritmu</h3>
+                            <p>&nbsp;</br>&nbsp;</p>
+                        </td></tr>
+                    <tr><td>Nastavení typu fitness:</td>
+                        <td><select id="TravelMethod" class="short" name="TravelMethod">
+                                <option value="distance" selected="true">Vzdálenost</option>
+                                <option value="duration">Čas</option>
+                            </select>
+<!--                            <input class="radiobutton" id="radio1" type="radio" name="TravelMethod" value="distance" checked="true" />
+                            <label for="radio1">Vzdálenost</label>
+                            &nbsp;&nbsp;&nbsp;
+                            <input class="radiobutton" id="radio2" type="radio" name="TravelMethod" value="duration" />
+                            <label for="radio2">Čas</label>-->
+                        </td>
+                    </tr>
+                    <tr><td>Velikost populace:</td>                        
+                        <td><select id="PopulationSize" class="short" name="PopulationSize">
+                                <option name="5">5</option>
+                                <option name="10" selected="true">10</option>
+                                <option name="15">15</option>
+                            </select>
+                        </td>
+                    </tr>
+    <!--                        <input id="PopulationSize" class="short" type="text" name="PopulationSize" value="10" />
+                            {if isset($PopulationSize_err)}<br /><span class="error">{$PopulationSize_err}</span>{/if}</td></tr>-->
+                    <tr><td>Počet populací (ukončující podmínka):</td>
+                        <td><select id="MaxPopulationNumber" class="short" name="MaxPopulationNumber">
+                                <option name="50">50</option>
+                                <option name="100" selected="true">100</option>
+                                <option name="150">150</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr><td>Maximální stagnace fitness populace (pomocná u.p.):</td>
+                        <td><select id="MaxDecayOfFitness" class="short" name="MaxDecayOfFitness">
+                                <option name="50">50</option>
+                                <option name="100" selected="true">100</option>
+                                <option name="150">150</option>
+                            </select>
+                        </td>
+                    </tr>
+<!--                    <tr><td colspan="2">&nbsp;<a href="#Overlay" onclick="StartIdle()">overlay</a> </td></tr>-->
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+        <tr><td colspan="2">&nbsp;</td></tr>
+        <tr>
+            <td colspan="2" class="right"><input type="submit" name="_form" value="Odeslat" onclick="StartIdle()"/></td>
+        </tr>
+    </tbody>
+</table>
+    </form>
+</div>
