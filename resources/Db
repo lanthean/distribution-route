@@ -14,10 +14,10 @@ import inc.Context
 import resources.LogToFile
 
 
-class Db():
+class Db:
     def function Db():
         self.conn = sqlite3.connect(config['dbfilename'])
-    # eo Db()
+        # eo Db()
 
     def Query(sql, verbose=False):
         if (verbose):
@@ -32,7 +32,7 @@ class Db():
             ret = False
         ret = result_set
         return ret
-    # eo Query()
+        # eo Query()
 
     def Find(RS, FieldName, Value):
         RS.movefirst()
@@ -40,7 +40,7 @@ class Db():
             RS.movenext()
 
         return not RS.eof()
-    # eo Find()
+        # eo Find()
 
     def InsertArray(table, array, verbose=False):
 
@@ -61,7 +61,7 @@ class Db():
 
         result = Db.Query(sql, verbose)
         self.Insert_ID = self.conn.Insert_ID()
-    # eo InsertArray()
+        # eo InsertArray()
 
     def UpdateArray(table, array, verbose=False):
         rs = Db.query("SHOW COLUMNS FROM " + table)
@@ -71,7 +71,7 @@ class Db():
         sqlKeys = array()
         sqlValues = array()
         foreach(array as k, v):
-            if (Db.Find(rs, "Field", k) and k != "0") {
+            if (Db.Find(rs, "Field", k) and k != "0"):
                 sqlKeys[] = "`{k}`"
                 sqlValues[] = "v"
 
@@ -98,6 +98,6 @@ class Db():
             return Db.Query(sql, verbose)
         else:
             return false
+        # eo UpdateArray()
 
-	# eo UpdateArray()
-# eo Db()
+    # eo class Db

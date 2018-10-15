@@ -8,9 +8,9 @@
 # @Package  Distribution route
 ###
 
-include baseconfig_inc
+import inc.baseconfig as config
 
-
+"""
 //baseconfig.inc.php - config array
 global $config;
 //Tools
@@ -67,3 +67,4 @@ class DataDBObject extends DbObject{
     public $ASSOC = true;
 }
 ?>
+"""

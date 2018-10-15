@@ -13,43 +13,26 @@
 # @version 1.1
 ###
 
-# setup global vars
-# from inc.baseconfig import config
-import resources.Db
-db = Db.Db()
-
-print(db.Query("SELECT * FROM "))
-
-import os
-config = {
-    # je potreba nastavit dle vlastniho uloziste
-
-    ##
-    # nastaveni mysql uloziste
-    "dbserver"  : "localhost"   # nazev databazoveho serveru
-    ,"dbuser"   : "root"        # uzivatelske jmeno pristupujici k databazi
-    ,"dbpasswd" : ""            # pristupove heslo pro zadaneho uzivatele (viz dbuser)
-    ,"dbname"   : "EA"          # nazev databaze
-
-    ##
-    # "basepath" : "/cesta/ke/korenovemu/adresari/zdrojovych/souboru/na/serveru/"
-	,"basepath" : os.path.dirname(os.path.realpath(__file__))
-    ##
-    # "baseurl" : "url adresa ke korenu projektu"
-    ,"baseurl" : 'http://localhost/ea/'
-
-    ,"APIKey" : 'ABQIAAAAXWcGXwk3hBVAVYTTFL5yMRQtjReqdFHmh44zZdTw87HtIN-cWRTa9h8fuMp6N_ng844Cg4_ohWTOoQ'
-}
-
+from inc.baseconfig import config
+# import inc.common
+# import resources.Db
 import pprint
-pp = pprint.PrettyPrinter(indent=4)
 
-#pp.pprint(baseconfig.config)
+# bo DEBUG:
+print("bo DEBUG")
+# setup global
+
 pp.pprint(config)
-
-print("qwe")
 print(config['dbserver'])
 
+# db = Db.Db()
+# pp = pprint.PrettyPrinter(indent=4)
+#
+# print(db.Query("SELECT * FROM tables;"))
+# pp.pprint(baseconfig.config)
+
+print("eo DEBUG")
+# eo DEBUG:
 
 # print(baseconfig.config['dbserver'])
 
