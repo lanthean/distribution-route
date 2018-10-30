@@ -13,25 +13,29 @@
 # @version 1.1
 ###
 
+# import json
 from inc.baseconfig import config
-# import inc.common
+import inc.common
+# import inc.Page
 # import resources.Db
 import pprint
 
 # bo DEBUG:
 print("bo DEBUG")
 # setup global
+print(GoogleAPI)
 
-pp.pprint(config)
-print(config['dbserver'])
+# pp = pprint.PrettyPrinter(indent=4)
+# pp.pprint(config)
+# print(config['dbserver'])
 
 # db = Db.Db()
-# pp = pprint.PrettyPrinter(indent=4)
 #
 # print(db.Query("SELECT * FROM tables;"))
 # pp.pprint(baseconfig.config)
 
 print("eo DEBUG")
+exit()
 # eo DEBUG:
 
 # print(baseconfig.config['dbserver'])
@@ -64,12 +68,12 @@ Content.GetContent()
 
 # save Context to db
 JsonData = {
-        "BestPopulationFitness" : json_encode(Context.BestPopulationFitness)
-        ,"BestChromosomeFitness" : json_encode(Context.BestChromosomeFitness)
-        ,"ChromosomeFitnessDecay" : json_encode(Context.ChromosomeFitnessDecay)
-        ,"PopulationFitnessDecay" : json_encode(Context.PopulationFitnessDecay)
+        "BestPopulationFitness" : json.dumps(Context.BestPopulationFitness)
+        ,"BestChromosomeFitness" : json.dumps(Context.BestChromosomeFitness)
+        ,"ChromosomeFitnessDecay" : json.dumps(Context.ChromosomeFitnessDecay)
+        ,"PopulationFitnessDecay" : json.dumps(Context.PopulationFitnessDecay)
 }
-Context.Data['Data'] = json_encode(JsonData)
+Context.Data['Data'] = json.dumps(JsonData)
 Context.Save()
 
 ##
