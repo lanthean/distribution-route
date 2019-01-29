@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# -*- coding:utf-8 -*-
 ##
 # @Copyright (c) 2011, Bc. Martin Bortel
 # @author Bc. Martin Bortel <martin.bortel(at)gmail.com>

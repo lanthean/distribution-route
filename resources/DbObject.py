@@ -1,10 +1,11 @@
+#!/usr/bin/env python
+# -*- coding:utf-8 -*-
 ##
 # @Copyright (c) 2011, Bc. Martin Bortel
 # @author Bc. Martin Bortel <martin.bortel(at)gmail.com>
 # @project EA (2011) at BUT http://vutbr.cz
 ##
-import inc.tools as Tools
-from inc.tools import date, is_array, is_int, is_string
+# from inc.tools import date, is_array, is_int, is_string, Tools
 import time
 import pprint
 

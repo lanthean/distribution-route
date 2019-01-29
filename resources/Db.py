@@ -9,20 +9,20 @@
 #
 import sqlite3
 
-import inc.baseconfig
-import inc.Context
-import resources.LogToFile
+import inc.baseconfig as config
+import inc.Context as Context
+import resources.LogToFile as LogToFile
 
 
 class Db:
-    def function Db():
+    def Db(self):
         self.conn = sqlite3.connect(config['dbfilename'])
         # eo Db()
 
-    def Query(sql, verbose=False):
+    def Query(self, sql, verbose=False):
         if (verbose):
             # print( sql ) #old version
-            Context.DebugOutput[] = sql     # from v.1.0.2 use Context
+            Context.DebugOutput.append(sql)     # from v.1.0.2 use Context
 
         try:
             result_set = self.conn.execute(sql)
@@ -36,13 +36,13 @@ class Db:
 
     def Find(RS, FieldName, Value):
         RS.movefirst()
-        while (not RS.eof() AND RS.fields[FieldName] != Value):
+        while (not RS.eof() and RS.fields[FieldName] != Value):
             RS.movenext()
 
         return not RS.eof()
         # eo Find()
 
-    def InsertArray(table, array, verbose=False):
+    def InsertArray(self, table, array, verbose=False):
 
         rs = self.Db.query("SHOW COLUMNS FROM " + table)
         if (not rs):
@@ -50,14 +50,14 @@ class Db:
 
         sqlKeys = array()
         sqlValues = array()
-        foreach(array as k, v):
-            if (Db.Find(rs, "Field", k) AND k != "0"):
-                sqlKeys[] = "`{k}`"
-                sqlValues[] = "'" . mysql_escape_string(v) . "'"
+        for k, v in array:
+            if (Db.Find(rs, "Field", k) and k != "0"):
+                sqlKeys.append("`{k}`")
+                sqlValues.append("'" + str(v) + "'")
 
         sql = "INSERT INTO table ("
-        + implode(", ", sqlKeys) + ") VALUES ("
-        + implode(", ", sqlValues) + ")"
+        + sqlKeys.join(", ") + ") VALUES ("
+        + sqlValues.join(", ") + ")"
 
         result = Db.Query(sql, verbose)
         self.Insert_ID = self.conn.Insert_ID()
@@ -70,34 +70,36 @@ class Db:
 
         sqlKeys = array()
         sqlValues = array()
-        foreach(array as k, v):
+        for k, v in array:
             if (Db.Find(rs, "Field", k) and k != "0"):
-                sqlKeys[] = "`{k}`"
-                sqlValues[] = "v"
+                sqlKeys.append("`{k}`")
+                sqlValues.append("v")
 
         rs = Db.Query("SHOW COLUMNS FROM " + table + " WHERE `key` = 'PRI'")
 
-        if(rs and rs.recordcount() > 0):
+        if(rs and rs.recordlen() > 0):
             where = " WHERE "
-            first = true
+            first = True
             while (not rs.eof()):
                 if (not first):
                     where += " AND "
 
                 where += "`{rs.fields['Field']}` = '{array[rs.fields['Field']]}'"
-                first = false
+                first = False
                 rs.MoveNext()
 
             sql = ""
-            for (i=0, i < count(sqlKeys), i++):
+            i = 0
+            while i < len(sqlKeys):
                 sql += sqlKeys[i] + " = '"
-                + mysql_escape_string(sqlValues[i]) + "',"
+                + str(sqlValues[i]) + "',"
+                i += 1
 
-            sql = substr(sql, 0, strlen(sql)-1)
+            sql = sql[0:-1]
             sql = "UPDATE table SET " + sql + " " + where
             return Db.Query(sql, verbose)
         else:
-            return false
+            return False
         # eo UpdateArray()
 
     # eo class Db

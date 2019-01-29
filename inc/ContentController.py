@@ -23,7 +23,7 @@ class ContentController:
             "smthing": "smthingproprietary"
         }.get(self.Dest, "")
 
-        self.ScriptFile = "{}{}{}.php".format(
+        self.ScriptFile = "{}{}{}.py".format(
                                 config['basepath'],
                                 self.Path,
                                 self.Dest)

@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# -*- coding:utf-8 -*-
 ##
 # @Copyright (c) 2011, Bc. Martin Bortel
 # @author Bc. Martin Bortel <martin.bortel(at)gmail.com>
@@ -8,7 +10,7 @@ import request
 import json
 
 import inc.common
-from inc.tools import is_array
+# from inc.tools import is_array
 from resources.DbObject import DbObjectUI
 
 

@@ -18,16 +18,16 @@ from inc.baseconfig import config
 import inc.common
 # import inc.Page
 # import resources.Db
-import pprint
+# import pprint
 
 # bo DEBUG:
 print("bo DEBUG")
 # setup global
-print(GoogleAPI)
+print(inc.common.GoogleAPI)
 
 # pp = pprint.PrettyPrinter(indent=4)
 # pp.pprint(config)
-# print(config['dbserver'])
+print(config['dbserver'])
 
 # db = Db.Db()
 #
